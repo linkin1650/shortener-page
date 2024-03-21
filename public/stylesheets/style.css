@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  border: 0px;
+}
+
+.img-fluid {
+  max-width: 100px;
+}
+
+.shortener-container {
+  width: 600px;
+  height: 600px;
+}
+
+.form {
+  width: 550px;
+}
+
+.form-control {
+  background-color: #e9e9e9;
+  border: none;
+}
+
+.form-control:focus {
+  background-color: #e9e9e9;
+  border: none;
+}
+
+.form-floating>label {
+  color: #7e7e7e;
+}
+
+.btn {
+  width: 100px;
+}
