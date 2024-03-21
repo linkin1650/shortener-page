@@ -21,7 +21,8 @@
 {{else}}
 <form class="d-flex flex-column align-items-center" action="/" method="post">
   <div class="form form-floating mb-3">
-    <input id="url" name="url" type="url" class="form-control" id="floatingInput" placeholder="">
+    <input id="url" name="url" type="url" pattern="https?://.+" class="form-control" id="floatingInput" placeholder=""
+      required>
     <label for="floatingInput">Enter URL</label>
   </div>
   <button type="submit" class="btn btn-outline-primary">Shorten</button>
